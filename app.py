@@ -21,7 +21,7 @@ events = [
 # URI of database
 # app.config['MONGO_URI'] = 'mongo-uri'
 
-# mongo = PyMongo(app)
+# mongo = PyMongo(app,tlsCAFile=certifi.where())
 
 # -- Routes section --
 # INDEX
